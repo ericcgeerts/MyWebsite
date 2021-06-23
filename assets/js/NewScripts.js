@@ -6,14 +6,12 @@ clickEmail.addEventListener("click",function(){
     clickEmail.textContent = 'Thank you for your message!'
     clickReset.textContent = ''
     var frm = document.getElementsByName('high')[0]; 
-    console.log(document.getElementById("name").value)
-    console.log(document.getElementById("email").value)
-    console.log(document.getElementById("subject").value)
-    console.log(document.getElementById("message").value)
     var name = String(document.getElementById("name").value)
     //var email = document.getElementById("email").value
     var subject = String(document.getElementById("subject").value)
     var message = String(document.getElementById("message").value)
+    message = message.replace(/\n/g, "\\n");
+    console.log(message)
     
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "text/plain");
@@ -25,7 +23,6 @@ clickEmail.addEventListener("click",function(){
     var combine = ahh.concat(ahh1);
     combine = combine.concat(ahh2);
 
-    console.log(raw)
     console.log(combine)
 
     var requestOptions = {
