@@ -3,8 +3,9 @@ var clickReset = document.querySelector('#button2')
 
 
 clickEmail.addEventListener("click",function(){
-    clickEmail.textContent = 'Thank you for your message!'
+    clickEmail.textContent= ''
     clickReset.textContent = ''
+    clickEmail.style.visibility="hidden"
     var frm = document.getElementsByName('high')[0]; 
     var name = String(document.getElementById("name").value)
     //var email = document.getElementById("email").value
