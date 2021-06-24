@@ -1,3 +1,0 @@
-# MyWebsite
-
-Information incoming
