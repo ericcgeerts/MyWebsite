@@ -1758,6 +1758,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	section.special, article2.special {
+		text-align: center;
+	}
+
 	header p {
 		color: #aaa;
 		position: relative;
@@ -2728,6 +2732,39 @@ input, select, textarea {
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
+	
+			features article2 {
+				border-top: solid 3px #f4f4f4;
+				margin-bottom: 2.25em;
+				padding-top: 2.25em;
+			}
+		
+				.features article2:first-child {
+					border-top: 0;
+					padding-top: 0;
+				}
+		
+				.features article2 .image {
+					display: inline-block;
+					padding-right: 2.0em;
+					vertical-align: middle;
+					width: 56%;
+				}
+		
+					.features article2 .image img {
+						display: block;
+						width: 100%;
+					}
+		
+				.features article2 .inner {
+					display: inline-block;
+					vertical-align: top;
+					width: 42%;
+				}
+		
+					.features article2 .inner > :last-child {
+						margin-bottom: 0;
+					}
 
 /* Header */
 
@@ -3214,6 +3251,18 @@ input, select, textarea {
 			}
 
 			.features article .inner {
+				display: block;
+				width: 100%;
+			}
+		
+			.features article2 .image {
+				display: block;
+				margin: 0 0 2.25em 0;
+				padding-right: 0;
+				width: 100%;
+			}
+
+			.features article2 .inner {
 				display: block;
 				width: 100%;
 			}
