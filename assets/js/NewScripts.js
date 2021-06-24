@@ -1,14 +1,13 @@
 var clickEmail = document.querySelector('#button')
 var clickReset = document.querySelector('#button2')
 
-
 clickEmail.addEventListener("click",function(){
     clickEmail.textContent= ''
     clickReset.textContent = ''
     clickEmail.style.visibility="hidden"
     var frm = document.getElementsByName('high')[0]; 
     var name = String(document.getElementById("name").value)
-    //var email = document.getElementById("email").value
+    var email = document.getElementById("email").value
     var subject = String(document.getElementById("subject").value)
     var message = String(document.getElementById("message").value)
     message = message.replace(/\n/g, "\\n");
@@ -19,11 +18,11 @@ clickEmail.addEventListener("click",function(){
 
     var ahh = ['{\r\n    \"Name\": \"',name,'\",'].join('');
     var ahh1 = ['\r\n    \"Subject\": \"',subject,'\",'].join('');
-    var ahh2 = ['\r\n    \"Body\": \"',message,'\"\r\n}'].join('');
+    var ahh2 = ['\r\n    \"Body\": \"',message,'\",'].join('');
+    var ahh3 = ['\r\n    \"Email\": \"',email,'\"\r\n}'].join('');
     var combine = ahh.concat(ahh1);
     combine = combine.concat(ahh2);
-
-    console.log(combine)
+    combine = combine.concat(ahh3);
 
     var requestOptions = {
     method: 'POST',
@@ -38,4 +37,5 @@ clickEmail.addEventListener("click",function(){
    .catch(error => console.log('error', error));
     
     frm.reset();
+    document.getElementById("ThankyouText").innerHTML = 'Thank you for reaching out!';
 })
