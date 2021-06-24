@@ -17,7 +17,6 @@ clickEmail.addEventListener("click",function(){
     var myHeaders = new Headers();
     myHeaders.append("Content-Type", "text/plain");
 
-    var raw = "{\r\n    \"Name\": \"Eric Geerts\",\r\n    \"Subject\": \"EmailSubject \",\r\n    \"Body\": \"BodyTest\"\r\n}";
     var ahh = ['{\r\n    \"Name\": \"',name,'\",'].join('');
     var ahh1 = ['\r\n    \"Subject\": \"',subject,'\",'].join('');
     var ahh2 = ['\r\n    \"Body\": \"',message,'\"\r\n}'].join('');
