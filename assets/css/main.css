@@ -2784,7 +2784,7 @@ input, select, textarea {
 		background: #2e476e;
 		color: #d2f2e9;
 		height: 100%;
-		overflow-y: auto;
+		overflow-y: hidden;
 		position: fixed;
 		text-align: center;
 		top: 0;
@@ -2817,12 +2817,12 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 3em;
+			padding: 1em;
 		}
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 1em auto;
 				width: 8em;
 			}
 
@@ -2834,7 +2834,7 @@ input, select, textarea {
 			#header > header p {
 				color: #ffffff;
 				font-style: italic;
-				margin: 1em 0 0 0;
+				margin: 0.5em 0 0 0;
 			}
 
 		#header > footer {
@@ -2844,7 +2844,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 2em;
+			padding: 1em;
 			width: 100%;
 		}
 
