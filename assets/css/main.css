@@ -2844,7 +2844,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 3em;
+			padding: 1em;
 			width: 100%;
 		}
 
