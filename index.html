@@ -21,7 +21,6 @@
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About Me</a></li>
 						<li><a href="#two">Skills</a></li>
 						<li><a href="#three">Work Experience</a></li>
 						<li><a href="#four">Certifications</a></li>
@@ -174,6 +173,17 @@
 													<li>Static contents are hosted in an S3 bucket and delivered via CloudFront</li>
 													<li>A custom serverless API with SES integration recieves inquiries from the contact form, and forwards a copy to my email and the submitter's email</li>
 													<li>For more information see <a href="https://github.com/ericcgeerts/MyWebsite" target="_blank" > <strong>here</strong></a></li>
+												</ul>
+										</div>
+									</article2>
+									<br></br>
+									<article2>
+										<a href="#" class="image"><img src="images/CodePipeline.png" alt="" /></a>
+										<div class="inner">
+											<h5>Continous Delivery Pipeline with GitHub</h5>
+												<ul>
+													<li>AWS CodePipeline integration with GitHub automatically detects repository updates to the master branch</li>
+													<li>Updates are immediately deployed to the websites static content S3 bucket, and the CloudFront cache is invalidated via Lambda</li>
 												</ul>
 										</div>
 									</article2>
