@@ -1,5 +1,6 @@
 #MyWebsite
 
+https://ericconnelly.me
 https://ericgeerts.com
 
 Static serverless personal website hosted in S3 and delivered by CloudFront.
