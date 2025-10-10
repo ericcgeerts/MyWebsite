@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LeetCode AI Practice Tracker - Eric Connelly</title>
+	<meta name="description" content="AI-powered LeetCode practice tracker with intelligent problem recommendations">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/modern.css">
+	<link rel="stylesheet" href="assets/css/project.css">
+</head>
+<body>
+	<header id="project-header">
+		<div class="container">
+			<a href="index.html" class="back-link">← Back to Portfolio</a>
+			<h1>LeetCode AI Practice Tracker</h1>
+			<p class="subtitle">Intelligent problem recommendations powered by AI</p>
+		</div>
+	</header>
+
+	<main id="main">
+		<section class="project-overview">
+			<div class="container">
+				<h2>Project Overview</h2>
+				<p>An AI-powered tool designed to optimize LeetCode practice by tracking submission history, analyzing performance patterns, and providing intelligent recommendations for the next problems to tackle.</p>
+			</div>
+		</section>
+
+		<section class="project-problem">
+			<div class="container">
+				<h2>The Problem</h2>
+				<p>LeetCode offers thousands of problems, making it challenging to:</p>
+				<ul>
+					<li>Identify which problems to practice next for maximum improvement</li>
+					<li>Track progress across different problem categories and difficulty levels</li>
+					<li>Focus on weak areas while maintaining strengths</li>
+					<li>Set and achieve meaningful coding practice goals</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="project-solution">
+			<div class="container">
+				<h2>The Solution</h2>
+				<div class="features-grid">
+					<div class="feature">
+						<h3>📊 Submission Tracking</h3>
+						<p>Automatically tracks all LeetCode submissions, including problem difficulty, category, time taken, and success rate.</p>
+					</div>
+					<div class="feature">
+						<h3>🤖 AI Recommendations</h3>
+						<p>Machine learning algorithm analyzes your history and suggests optimal next problems based on your goals and performance patterns.</p>
+					</div>
+					<div class="feature">
+						<h3>📈 Progress Visualization</h3>
+						<p>Interactive dashboards display progress over time, problem category distribution, and skill development metrics.</p>
+					</div>
+					<div class="feature">
+						<h3>🎯 Goal Setting</h3>
+						<p>Set custom goals (e.g., "master dynamic programming") and receive tailored problem recommendations to achieve them.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project-tech">
+			<div class="container">
+				<h2>Technology Stack</h2>
+				<div class="tech-grid">
+					<div class="tech-item">
+						<h4>Backend</h4>
+						<ul>
+							<li>Python (FastAPI)</li>
+							<li>AWS Lambda</li>
+							<li>DynamoDB</li>
+							<li>OpenAI API</li>
+						</ul>
+					</div>
+					<div class="tech-item">
+						<h4>Frontend</h4>
+						<ul>
+							<li>React</li>
+							<li>Chart.js</li>
+							<li>Tailwind CSS</li>
+						</ul>
+					</div>
+					<div class="tech-item">
+						<h4>Infrastructure</h4>
+						<ul>
+							<li>AWS S3 + CloudFront</li>
+							<li>API Gateway</li>
+							<li>CloudWatch</li>
+						</ul>
+					</div>
+					<div class="tech-item">
+						<h4>AI/ML</h4>
+						<ul>
+							<li>LangChain</li>
+							<li>GPT-4</li>
+							<li>Custom recommendation engine</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project-features">
+			<div class="container">
+				<h2>Key Features</h2>
+				<div class="feature-list">
+					<div class="feature-item">
+						<h3>Smart Problem Recommendations</h3>
+						<p>AI analyzes your submission history, identifies patterns in your problem-solving approach, and recommends problems that will challenge you appropriately while building on your existing skills.</p>
+					</div>
+					<div class="feature-item">
+						<h3>Performance Analytics</h3>
+						<p>Track metrics like average solve time, success rate by category, difficulty progression, and identify areas needing improvement.</p>
+					</div>
+					<div class="feature-item">
+						<h3>Personalized Learning Path</h3>
+						<p>Based on your goals (interview prep, competitive programming, specific algorithms), the system creates a customized learning path with milestone tracking.</p>
+					</div>
+					<div class="feature-item">
+						<h3>Progress Dashboard</h3>
+						<p>Visual representation of your coding journey with charts showing problem distribution, difficulty trends, and category mastery levels.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project-architecture">
+			<div class="container">
+				<h2>System Architecture</h2>
+				<p>The system follows a serverless architecture pattern:</p>
+				<ol>
+					<li><strong>Data Collection:</strong> LeetCode API integration fetches submission data periodically</li>
+					<li><strong>Storage:</strong> Submissions stored in DynamoDB with efficient querying patterns</li>
+					<li><strong>AI Processing:</strong> Lambda functions process data and generate recommendations using GPT-4</li>
+					<li><strong>Frontend:</strong> React dashboard hosted on S3/CloudFront displays insights and recommendations</li>
+					<li><strong>Real-time Updates:</strong> WebSocket connections provide live progress tracking</li>
+				</ol>
+			</div>
+		</section>
+
+		<section class="project-status">
+			<div class="container">
+				<h2>Project Status</h2>
+				<div class="status-badge">🚧 In Development</div>
+				<p>Currently building the core recommendation engine and data visualization components. Expected launch: Q2 2024</p>
+			</div>
+		</section>
+
+		<section class="project-links">
+			<div class="container">
+				<h2>Links & Resources</h2>
+				<div class="links-grid">
+					<a href="#" class="project-link">GitHub Repository →</a>
+					<a href="#" class="project-link">Live Demo →</a>
+					<a href="#" class="project-link">Technical Documentation →</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="project-footer">
+		<div class="container">
+			<p><a href="index.html">← Back to Portfolio</a></p>
+		</div>
+	</footer>
+</body>
+</html>

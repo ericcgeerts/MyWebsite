@@ -1,0 +1,141 @@
+/* Project Page Styles */
+
+#project-header {
+	background: var(--primary);
+	color: #fff;
+	padding: 3rem 0;
+	text-align: center;
+}
+
+#project-header h1 {
+	color: #fff;
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.subtitle {
+	font-size: 1.25rem;
+	opacity: 0.9;
+}
+
+.back-link {
+	display: inline-block;
+	margin-bottom: 1rem;
+	color: #fff;
+	border: none;
+	opacity: 0.8;
+	transition: opacity var(--transition);
+}
+
+.back-link:hover {
+	opacity: 1;
+}
+
+section {
+	padding: 3rem 0;
+}
+
+section:nth-child(even) {
+	background: var(--bg-alt);
+}
+
+.features-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.feature {
+	padding: 1.5rem;
+	background: var(--bg);
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px var(--shadow);
+}
+
+.feature h3 {
+	margin-bottom: 0.5rem;
+}
+
+.tech-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.tech-item h4 {
+	color: var(--primary);
+	margin-bottom: 1rem;
+}
+
+.tech-item ul {
+	list-style: none;
+	padding: 0;
+}
+
+.tech-item li {
+	padding: 0.25rem 0;
+}
+
+.feature-list {
+	display: grid;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+
+.feature-item {
+	padding: 1.5rem;
+	border-left: 4px solid var(--primary);
+	background: var(--bg);
+}
+
+.status-badge {
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	background: var(--primary);
+	color: #fff;
+	border-radius: 2rem;
+	font-weight: 700;
+	margin: 1rem 0;
+}
+
+.links-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+.project-link {
+	display: block;
+	padding: 1rem;
+	background: var(--primary);
+	color: #fff;
+	text-align: center;
+	border-radius: 0.5rem;
+	border: none;
+	transition: background var(--transition);
+}
+
+.project-link:hover {
+	background: var(--primary-light);
+}
+
+.project-footer {
+	background: var(--bg-alt);
+	padding: 2rem 0;
+	text-align: center;
+	border-top: 1px solid var(--border);
+}
+
+@media (max-width: 768px) {
+	#project-header h1 {
+		font-size: 2rem;
+	}
+	
+	.features-grid,
+	.tech-grid {
+		grid-template-columns: 1fr;
+	}
+}
