@@ -1,7 +1,10 @@
 {
   "name": "Eric Connelly",
   "short_name": "Eric",
+  "description": "Eric Connelly's personal website about cloud security and platform adoption.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "browser",
   "background_color": "#f6f3ed",
   "theme_color": "#f6f3ed",

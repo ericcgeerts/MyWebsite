@@ -1,11 +1,14 @@
-#MyWebsite
+# Eric Connelly — Personal Website
 
-https://ericconnelly.me
+[ericconnelly.me](https://ericconnelly.me)
 
-https://ericgeerts.com
+Static personal website for Eric Connelly, focused on cloud security, platform adoption, professional experience, and certifications.
 
-Static serverless personal website hosted in S3 and delivered by CloudFront.
+## Architecture
 
-Contains JavaScript that makes custom API calls to an AWS API Gateway integrated with Lambda and AWS SES in in order to generate email messages to my personal inbox (while not exposing my actual email), as well as forward them to the submitter's inbox.
+- Static HTML hosted in Amazon S3
+- Delivered globally through Amazon CloudFront
+- Deployed automatically from the `main` branch through AWS CodePipeline
+- Crawl metadata includes canonical URLs, `robots.txt`, and an XML sitemap
 
-Automatic CodePipeline detects changes to this repository, tests them, deploys it, and rolls back if issues.
+The canonical production domain is `https://ericconnelly.me`.
