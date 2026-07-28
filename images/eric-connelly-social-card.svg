@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="paper-light" cx="15%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".92"/>
+      <stop offset="100%" stop-color="#f6f3ed" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#f6f3ed"/>
+  <rect width="1200" height="630" fill="url(#paper-light)"/>
+  <text x="72" y="98" fill="#55784d" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">PERSONAL WEBSITE</text>
+  <text x="72" y="224" fill="#10233b" font-family="Georgia, 'Times New Roman', serif" font-size="82">Eric Connelly</text>
+  <line x1="72" y1="271" x2="1128" y2="271" stroke="#d9d6ce" stroke-width="2"/>
+  <text x="72" y="348" fill="#10233b" font-family="Georgia, 'Times New Roman', serif" font-size="38">Cloud security &amp;</text>
+  <text x="72" y="397" fill="#10233b" font-family="Georgia, 'Times New Roman', serif" font-size="38">platform adoption</text>
+  <g transform="translate(964 322)">
+    <rect width="164" height="164" fill="none" stroke="#10233b" stroke-width="2"/>
+    <text x="82" y="107" fill="#10233b" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700" text-anchor="middle" letter-spacing="-7">EC</text>
+  </g>
+  <text x="72" y="554" fill="#55784d" font-family="Arial, Helvetica, sans-serif" font-size="19">ericconnelly.me</text>
+</svg>
