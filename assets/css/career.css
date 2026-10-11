@@ -1,0 +1,130 @@
+
+    #career-portfolio-review .portfolio-page { color-scheme: light dark; --paper:light-dark(#f7f5ef,#151d23); --ink:light-dark(#192e34,#e6eee9); --secondary:light-dark(#53635f,#acb9b2); --line:light-dark(#d6ddd2,#36443e); --accent:light-dark(#355e49,#acd5b7); --panel:light-dark(#e9eee5,#24342b); background:var(--paper); color:var(--ink); font:15px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif; padding:0 clamp(22px,5vw,60px); }
+    #career-portfolio-review .portfolio-page * { box-sizing:border-box; }
+    #career-portfolio-review .portfolio-page a { color:inherit; text-underline-offset:5px; }
+    #career-portfolio-review .portfolio-page a:focus-visible,#career-portfolio-review .portfolio-page summary:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+    #career-portfolio-review .portfolio-page h1,#career-portfolio-review .portfolio-page h2,#career-portfolio-review .portfolio-page h3,#career-portfolio-review .portfolio-page p { margin:0; }
+    #career-portfolio-review .portfolio-page [hidden] { display:none; }
+    #career-portfolio-review .site-nav { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:16px; padding:26px 0; border-bottom:1px solid var(--line); }
+    #career-portfolio-review .wordmark { font-size:18px; letter-spacing:-.04em; font-weight:650; text-decoration:none; }
+    #career-portfolio-review .nav-links { display:flex; flex-wrap:wrap; gap:22px; font-size:13px; }
+    #career-portfolio-review .nav-links a { text-decoration:none; }
+    #career-portfolio-review .eyebrow { color:var(--accent); font-size:11px; font-weight:650; text-transform:uppercase; letter-spacing:.13em; }
+    #career-portfolio-review .intro-grid { display:grid; grid-template-columns:minmax(0,1.65fr) minmax(220px,1fr); gap:42px; align-items:end; padding:68px 0 44px; }
+    #career-portfolio-review .editorial h1 { font-family:Georgia,"Times New Roman",serif; font-size:clamp(40px,5.6vw,66px); font-weight:400; line-height:1.08; letter-spacing:-.045em; margin:18px 0 22px; }
+    #career-portfolio-review .editorial h1 em { color:var(--accent); font-weight:400; }
+    #career-portfolio-review .intro-copy { color:var(--secondary); max-width:550px; font-size:16px; }
+    #career-portfolio-review .intro-aside { border-left:1px solid var(--accent); padding-left:23px; }
+    #career-portfolio-review .intro-aside h2 { font:400 27px/1.2 Georgia,serif; margin:12px 0; }
+    #career-portfolio-review .aside-copy { color:var(--secondary); font-size:13px; }
+    #career-portfolio-review .actions { display:flex; flex-wrap:wrap; align-items:center; gap:22px; margin-top:26px; }
+    #career-portfolio-review .primary-link { display:inline-flex; align-items:center; gap:16px; padding:12px 18px; background:var(--ink); color:var(--paper)!important; text-decoration:none; border:1px solid var(--ink); font-size:13px; font-weight:600; }
+    #career-portfolio-review .quiet-link { font-size:13px; }
+    #career-portfolio-review .experience-strip { display:flex; flex-wrap:wrap; gap:14px 35px; padding:21px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); align-items:center; }
+    #career-portfolio-review .experience-strip span { color:var(--secondary); font-size:11px; text-transform:uppercase; letter-spacing:.12em; }
+    #career-portfolio-review .experience-strip strong { font-size:16px; font-weight:600; }
+    #career-portfolio-review .section-heading { display:flex; justify-content:space-between; align-items:baseline; gap:20px; flex-wrap:wrap; margin-bottom:23px; }
+    #career-portfolio-review .section-heading h2 { font:400 34px/1.2 Georgia,serif; letter-spacing:-.035em; }
+    #career-portfolio-review .section-heading small { font-size:12px; color:var(--secondary); }
+    #career-portfolio-review .section { padding:42px 0; border-bottom:1px solid var(--line); }
+    #career-portfolio-review .capabilities { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:28px; }
+    #career-portfolio-review .capability-number { color:var(--accent); font:12px/1.5 ui-monospace,monospace; margin-bottom:12px; }
+    #career-portfolio-review .capabilities h3 { font-size:17px; font-weight:600; margin-bottom:9px; letter-spacing:-.02em; }
+    #career-portfolio-review .capabilities p { color:var(--secondary); font-size:13px; }
+    #career-portfolio-review .project-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.15fr); gap:38px; align-items:start; }
+    #career-portfolio-review .project-copy h3 { font:400 29px/1.2 Georgia,serif; margin:13px 0; letter-spacing:-.025em; }
+    #career-portfolio-review .project-copy p { color:var(--secondary); font-size:14px; }
+    #career-portfolio-review .architecture { background:var(--panel); padding:22px; }
+    #career-portfolio-review .architecture-label { font:11px/1.5 ui-monospace,monospace; text-transform:uppercase; letter-spacing:.07em; color:var(--accent); }
+    #career-portfolio-review .architecture-flow { display:flex; gap:9px; flex-wrap:wrap; align-items:center; margin:16px 0; font:12px/1.5 ui-monospace,monospace; }
+    #career-portfolio-review .architecture-flow span { background:var(--paper); padding:9px 12px; border:1px solid var(--line); }
+    #career-portfolio-review .architecture-note { color:var(--secondary); font-size:12px; }
+    #career-portfolio-review details { margin-top:20px; font-size:13px; }
+    #career-portfolio-review summary { color:var(--accent); font-weight:600; }
+    #career-portfolio-review details p { margin-top:12px!important; color:var(--secondary); }
+    #career-portfolio-review .history-row { display:grid; grid-template-columns:1fr 1.8fr 1fr; gap:25px; padding:19px 0; border-top:1px solid var(--line); }
+    #career-portfolio-review .history-row:first-child { border-top:0; }
+    #career-portfolio-review .history-row h3 { font-size:15px; font-weight:600; }
+    #career-portfolio-review .history-row p { font-size:13px; color:var(--secondary); }
+    #career-portfolio-review .history-row time { text-align:right; font-size:12px; color:var(--secondary); }
+    #career-portfolio-review .credential-row { display:flex; gap:10px 22px; flex-wrap:wrap; color:var(--secondary); font-size:13px; margin-top:15px; }
+    #career-portfolio-review .credential-row span { border-bottom:1px solid var(--line); padding-bottom:5px; }
+    #career-portfolio-review .closing { display:flex; justify-content:space-between; gap:25px; align-items:center; padding:38px 0; }
+    #career-portfolio-review .closing h2 { font:400 29px/1.25 Georgia,serif; letter-spacing:-.03em; }
+    #career-portfolio-review .footer { display:flex; justify-content:space-between; flex-wrap:wrap; gap:15px; padding:20px 0 26px; border-top:1px solid var(--line); color:var(--secondary); font-size:11px; }
+    #career-portfolio-review .technical { --paper:light-dark(#edf2f5,#101a28); --ink:light-dark(#11263c,#e5edf6); --secondary:light-dark(#52677c,#a6b9cd); --line:light-dark(#ccd7e1,#2e4055); --accent:light-dark(#165f8e,#86c8ef); --panel:light-dark(#dce8ef,#1b2e42); }
+    #career-portfolio-review .technical .wordmark { font-family:ui-monospace,monospace; font-size:15px; letter-spacing:-.035em; }
+    #career-portfolio-review .technical-hero { display:grid; grid-template-columns:minmax(0,1.35fr) minmax(250px,1fr); gap:45px; padding:60px 0 44px; align-items:center; }
+    #career-portfolio-review .technical h1 { font-size:clamp(43px,5.8vw,68px); font-weight:650; letter-spacing:-.055em; line-height:1.08; margin:15px 0 10px; }
+    #career-portfolio-review .technical-subtitle { font-size:21px; color:var(--accent); letter-spacing:-.035em; margin-bottom:22px!important; }
+    #career-portfolio-review .technical .section-heading h2 { font:600 28px/1.2 system-ui,sans-serif; letter-spacing:-.035em; }
+    #career-portfolio-review .technical .project-copy h3 { font:600 28px/1.2 system-ui,sans-serif; letter-spacing:-.04em; }
+    #career-portfolio-review .technical .closing h2 { font:600 27px/1.2 system-ui,sans-serif; }
+    #career-portfolio-review .profile-panel { border:1px solid var(--line); background:var(--panel); padding:23px; }
+    #career-portfolio-review .profile-panel h2 { font-size:20px; margin:11px 0 17px; letter-spacing:-.025em; }
+    #career-portfolio-review .profile-line { display:flex; justify-content:space-between; gap:18px; font-size:12px; border-top:1px solid var(--line); padding:10px 0; }
+    #career-portfolio-review .profile-line span { color:var(--secondary); }
+    #career-portfolio-review .topic-row { display:flex; flex-wrap:wrap; gap:9px; margin-top:16px; }
+    #career-portfolio-review .topic-row span { font:11px/1.5 ui-monospace,monospace; background:var(--paper); padding:5px 9px; border:1px solid var(--line); }
+    #career-portfolio-review .technical-work { display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,1fr); gap:35px; }
+    #career-portfolio-review .work-areas article { display:grid; grid-template-columns:35px 1fr; gap:15px; padding:19px 0; border-top:1px solid var(--line); }
+    #career-portfolio-review .work-areas article:first-child { border-top:0; padding-top:0; }
+    #career-portfolio-review .work-areas h3 { font-size:16px; margin-bottom:6px; }
+    #career-portfolio-review .work-areas p { color:var(--secondary); font-size:13px; }
+    #career-portfolio-review .tech-foundation { padding:23px; border-left:3px solid var(--accent); background:var(--panel); }
+    #career-portfolio-review .tech-foundation h3 { font-size:16px; margin-bottom:15px; }
+    #career-portfolio-review .tech-foundation p { color:var(--secondary); font-size:13px; margin-top:12px; }
+    #career-portfolio-review .project-links { display:flex; flex-wrap:wrap; gap:18px; margin-top:16px; font-size:13px; }
+    @media(max-width:650px) {
+      #career-portfolio-review .intro-grid,#career-portfolio-review .technical-hero,#career-portfolio-review .project-grid,#career-portfolio-review .technical-work { grid-template-columns:1fr; gap:28px; }
+      #career-portfolio-review .intro-grid,#career-portfolio-review .technical-hero { padding-top:38px; }
+      #career-portfolio-review .capabilities { grid-template-columns:1fr; gap:24px; }
+      #career-portfolio-review .history-row { grid-template-columns:1fr; gap:6px; }
+      #career-portfolio-review .history-row time { text-align:left; }
+      #career-portfolio-review .closing { align-items:start; flex-direction:column; }
+      #career-portfolio-review .nav-links { gap:15px; }
+      #career-portfolio-review .section { padding:32px 0; }
+    }
+    @media(pointer:coarse) { #career-portfolio-review .nav-links a { min-height:44px; display:flex; align-items:center; } #career-portfolio-review summary { padding:12px 0; } }
+  
+/* Evidence-focused revision */
+#career-portfolio-review .portfolio-page { max-width:1200px; margin:0 auto; }
+#career-portfolio-review .portfolio-page a { overflow-wrap:anywhere; }
+#career-portfolio-review .featured-project { gap:32px; }
+#career-portfolio-review .project-facts { display:grid; gap:0; margin-top:16px; }
+#career-portfolio-review .project-facts > div { display:flex; flex-wrap:wrap; justify-content:space-between; gap:6px 16px; padding:11px 0; border-bottom:1px solid var(--line); font-size:12px; }
+#career-portfolio-review .project-facts strong { font-weight:600; }
+#career-portfolio-review .project-facts span { color:var(--secondary); }
+#career-portfolio-review .decision-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin:18px 0; }
+#career-portfolio-review .decision-grid h3 { font-size:14px; }
+#career-portfolio-review .decision-grid p { font-size:13px; }
+#career-portfolio-review .secondary-project { display:flex; justify-content:space-between; align-items:center; gap:28px; padding-top:28px; margin-top:28px; border-top:1px solid var(--line); }
+#career-portfolio-review .secondary-project h3 { font-size:19px; font-weight:500; margin:7px 0; }
+#career-portfolio-review .secondary-project p:not(.eyebrow) { max-width:590px; color:var(--secondary); font-size:13px; }
+#career-portfolio-review .secondary-project > a { font-size:13px; flex-shrink:0; }
+#career-portfolio-review .note-item { border-top:1px solid var(--line); margin-top:0; }
+#career-portfolio-review .note-item:last-child { border-bottom:1px solid var(--line); }
+#career-portfolio-review .note-item summary { padding:18px 0; }
+#career-portfolio-review .note-category { display:inline-block; margin-left:15px; color:var(--secondary); font-size:11px; font-weight:400; }
+#career-portfolio-review .note-content { max-width:720px; padding:0 0 22px 18px; }
+#career-portfolio-review .closing .eyebrow { margin-bottom:12px; }
+#career-portfolio-review .closing .actions { margin-top:0; }
+#career-portfolio-review .technical .featured-project { grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); }
+#career-portfolio-review .technical .profile-line { flex-wrap:wrap; }
+#career-portfolio-review .portfolio-page { position:relative; }
+#career-portfolio-review .skip-link { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+#career-portfolio-review .skip-link:focus { position:relative; display:inline-block; width:auto; height:auto; clip-path:none; padding:12px; background:var(--paper); color:var(--ink); }
+#career-portfolio-review .project-copy .attribution { margin-top:16px; font-size:12px; }
+#career-portfolio-review .history-row { grid-template-columns:minmax(0,1fr) minmax(0,2.2fr) minmax(0,.9fr); }
+#career-portfolio-review .history-row p { margin-top:7px; max-width:560px; }
+#career-portfolio-review .profile-line strong { font-weight:500; }
+#career-portfolio-review .portfolio-page main { scroll-margin-top:20px; }
+@media(pointer:coarse) {
+  #career-portfolio-review .project-links a,#career-portfolio-review .secondary-project > a,#career-portfolio-review .quiet-link,#career-portfolio-review .footer a { display:inline-flex; align-items:center; min-height:44px; }
+}
+@media(max-width:650px) {
+  #career-portfolio-review .history-row { grid-template-columns:1fr; }
+  #career-portfolio-review .decision-grid,#career-portfolio-review .technical .featured-project { grid-template-columns:1fr; }
+  #career-portfolio-review .secondary-project { align-items:start; flex-direction:column; gap:16px; }
+  #career-portfolio-review .note-category { display:block; margin:5px 0 0 18px; }
+}
