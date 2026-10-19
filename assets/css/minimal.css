@@ -129,6 +129,16 @@ h2 {
 
 .ext::after { content: " ↗"; font-size: .8em; color: var(--faint); }
 
+.verify {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex: 1;
+}
+.verify:hover { text-decoration: none; }
+.verify:hover span:first-child { text-decoration: underline; text-underline-offset: 3px; }
+.verify .muted { flex-shrink: 0; font-size: .85rem; }
+
 .prose p { margin: 0 0 1rem; }
 .prose h2 + p { margin-top: .5rem; }
 
