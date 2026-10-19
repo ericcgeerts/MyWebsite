@@ -1,13 +1,13 @@
 {
   "name": "Eric Connelly",
   "short_name": "Eric",
-  "description": "Eric Connelly's personal website about cloud security and platform adoption.",
+  "description": "Eric Connelly's personal website about cloud security and customer adoption.",
   "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "browser",
-  "background_color": "#f6f3ed",
-  "theme_color": "#f6f3ed",
+  "background_color": "#fbfaf7",
+  "theme_color": "#fbfaf7",
   "icons": [
     {
       "src": "/favicon.svg",
