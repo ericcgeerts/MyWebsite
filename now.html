@@ -6,11 +6,12 @@
   <meta name="description" content="What Eric Connelly is focused on now.">
   <meta name="author" content="Eric Connelly">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#f6f3ed">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://ericconnelly.me/now.html">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/01a.css">
+  <link rel="stylesheet" href="/assets/css/minimal.css">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Eric Connelly">
@@ -35,7 +36,7 @@
     "url": "https://ericconnelly.me/now.html",
     "name": "Now — Eric Connelly",
     "description": "What Eric Connelly is focused on now.",
-    "dateModified": "2026-07-27",
+    "dateModified": "2026-10-18",
     "inLanguage": "en-US",
     "isPartOf": {
       "@type": "WebSite",
@@ -58,33 +59,26 @@
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
-  <div class="page page--narrow">
-    <header class="site-header">
-      <a class="monogram" href="/" aria-label="Eric Connelly home">EC</a>
-      <nav class="header-nav" aria-label="Page navigation"><a href="/">Home</a></nav>
+  <main class="page reveal" id="content">
+    <header class="intro">
+      <div class="intro-top">
+        <h1>Now</h1>
+        <nav aria-label="Page navigation"><a href="/">Home</a></nav>
+      </div>
+      <p class="lede">A short, occasionally updated snapshot of what I’m focused on.</p>
     </header>
 
-    <main class="now-content" id="content">
-      <p class="eyebrow">Personal notes</p>
-      <h1>Now</h1>
-      <p class="now-intro">A short, occasionally updated snapshot of what I’m focused on.</p>
-      <div class="rule now-rule" aria-hidden="true"></div>
+    <section class="prose" aria-labelledby="work">
+      <h2 id="work">Work</h2>
+      <p>I’m a Solutions Consultant at Google in Washington, DC, focused on cloud security and platform adoption.</p>
+    </section>
 
-      <div class="notes">
-        <section class="note" aria-labelledby="work">
-          <h2 id="work">Work</h2>
-          <p>I’m a Solutions Consultant at Google in Washington, DC, focused on cloud security and platform adoption.</p>
-        </section>
-        <section class="note" aria-labelledby="learning">
-          <h2 id="learning">Keeping close to the work</h2>
-          <p>I’m staying hands-on with cloud platforms, Kubernetes, and the practical work of making secure infrastructure easier to operate.</p>
-        </section>
-      </div>
+    <section class="prose" aria-labelledby="learning">
+      <h2 id="learning">Keeping close to the work</h2>
+      <p>I’m staying hands-on with cloud platforms, Kubernetes, and the practical work of making secure infrastructure easier to operate.</p>
+    </section>
 
-      <p class="updated">Last updated July 2026. The views here are personal.</p>
-    </main>
-
-    <footer class="site-footer"><span aria-hidden="true">↗</span> A clear, human layer over complex systems.</footer>
-  </div>
+    <footer>Updated October 2026. The views here are personal.</footer>
+  </main>
 </body>
 </html>

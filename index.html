@@ -6,11 +6,12 @@
   <meta name="description" content="Eric Connelly — Solutions Consultant II at Google. Cloud security, customer adoption, and hands-on cloud experience across Google, AWS, and TELUS Health.">
   <meta name="author" content="Eric Connelly">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#f7f5ef">
+  <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)">
   <link rel="canonical" href="https://ericconnelly.me/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/career.css">
+  <link rel="stylesheet" href="/assets/css/minimal.css">
   <meta property="og:type" content="profile">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Eric Connelly">
@@ -44,7 +45,7 @@
         "@id": "https://ericconnelly.me/#profile",
         "url": "https://ericconnelly.me/",
         "name": "Eric Connelly | Cloud Security & Customer Advisory",
-        "dateModified": "2026-10-11",
+        "dateModified": "2026-10-18",
         "isPartOf": {
           "@id": "https://ericconnelly.me/#website"
         },
@@ -71,8 +72,7 @@
             "Secure infrastructure"
           ],
           "sameAs": [
-            "https://www.linkedin.com/in/eric-c-159606108/",
-            "https://github.com/ericcgeerts"
+            "https://www.linkedin.com/in/eric-c-159606108/"
           ]
         }
       }
@@ -81,38 +81,41 @@
   </script>
   <title>Eric Connelly | Cloud Security &amp; Customer Advisory</title>
 </head>
-<body style="margin:0"><div id="career-portfolio-review">
-<div class="portfolio-page editorial" id="evidence-site">
-  <a class="skip-link" href="#evidence-main">Skip to content</a>
-  <header class="site-nav">
-    <a class="wordmark" href="#evidence-site">Eric Connelly<span aria-hidden="true">.</span></a>
-    <nav class="nav-links" aria-label="Main navigation"><a href="#evidence-work">Project</a><a href="#evidence-notes">Architecture</a><a href="#evidence-experience">Experience</a><a href="#evidence-connect">Contact</a></nav>
-  </header>
-  <main id="evidence-main">
-    <section class="intro-grid" aria-labelledby="evidence-heading">
-      <div><p class="eyebrow">Solutions Consultant II at Google</p><h1 id="evidence-heading">Complex systems.<br><em>Clear next steps.</em></h1><p class="intro-copy">I’m Eric Connelly, a Solutions Consultant II at Google focused on cloud security and customer adoption. My background spans cloud engineering at TELUS Health and customer cloud support at AWS.</p><div class="actions"><a class="primary-link" href="#evidence-experience">View my experience <span aria-hidden="true">↗</span></a><a class="quiet-link" href="https://www.linkedin.com/in/eric-c-159606108/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div></div>
-      <aside class="intro-aside"><p class="eyebrow">Current focus</p><h2>Cloud security.<br>Customer adoption.</h2><p class="aside-copy">Technical questions, adoption blockers, and coordination with account teams.<br>Washington, DC area.</p></aside>
-    </section>
-    <section class="section" id="evidence-experience" aria-labelledby="evidence-history"><div class="section-heading"><h2 id="evidence-history">Experience</h2><small>Engineering foundation. Customer focus.</small></div><div class="history-row"><h3>Google</h3><div><h3>Solutions Consultant II</h3><p>Support cloud-security customers through technical questions, adoption blockers, and renewal-risk conversations, coordinating next steps with account executives and solutions engineers.</p></div><time>Jan 2026–present</time></div><div class="history-row"><h3>Amazon Web Services</h3><div><h3>Cloud Support Engineer</h3><p>Troubleshoot customer cloud environments and explain technical findings, workarounds, and next steps.</p></div><time>Jul 2024–Jan 2026</time></div><div class="history-row"><h3>TELUS Health</h3><div><h3>Cloud Engineer</h3><p>Worked on cloud infrastructure and Kubernetes environments before moving into customer-facing cloud support.</p></div><time>May 2022–Apr 2024</time></div><details><summary>Earlier experience</summary><p>Software Engineer Intern, Varicent · May 2020–Aug 2021. Cloud Engineer, Pegasystems · Mar 2024–Jun 2024.</p></details></section>
-    <section class="section" id="evidence-work" aria-labelledby="evidence-work-heading">
-      <div class="section-heading"><h2 id="evidence-work-heading">Personal infrastructure projects</h2><small>Architecture &amp; operations</small></div>
-      <article class="project-grid featured-project">
-        <div class="project-copy"><p class="eyebrow">Personal project · AWS</p><h3>On-demand infrastructure<br>for multiplayer sessions.</h3><p>A personal control panel for starting temporary game servers on AWS, checking readiness, and preserving supported game worlds between sessions.</p><p class="attribution">Personal project developed with AI coding assistance. This walkthrough explains the operating model, design choices, and limitations.</p><div class="topic-row"><span>Step Functions</span><span>EC2</span><span>DynamoDB</span><span>S3</span></div><div class="project-links"><a href="https://games.ericconnelly.me/" target="_blank" rel="noopener noreferrer">Explore the launcher ↗</a><a href="#evidence-notes">Read the design notes ↓</a></div></div>
-        <div><div class="architecture"><p class="architecture-label">Simplified launch path</p><div class="architecture-flow"><span>Browser</span><b aria-hidden="true">→</b><span>Launch API</span><b aria-hidden="true">→</b><span>Step Functions</span><b aria-hidden="true">→</b><span>EC2</span></div><p class="architecture-note">DynamoDB tracks ownership and capacity. Readiness checks gate joining details. S3 retains supported game worlds.</p></div><div class="project-facts"><div><strong>Concurrency limit</strong><span>Up to two simultaneous runtimes.</span></div><div><strong>Session cleanup</strong><span>Idle shutdown and a maximum session duration.</span></div><div><strong>Backup verification</strong><span>Backup checks before normal termination.</span></div></div></div>
-      </article>
-      <article class="secondary-project"><div><p class="eyebrow">AWS · Static delivery</p><h3>This portfolio, from source to delivery.</h3><p>Static HTML served through S3 and CloudFront, with GitHub-to-CodePipeline deployment. The choice trades dynamic application features for a small hosting footprint and a repeatable deployment path.</p></div><a href="https://github.com/ericcgeerts/MyWebsite" target="_blank" rel="noopener noreferrer">View public source ↗</a></article>
-    </section>
-    <section class="section" id="evidence-notes" aria-labelledby="evidence-notes-heading">
-      <div class="section-heading"><h2 id="evidence-notes-heading">Architecture decisions</h2><small>Design behavior, tradeoffs, and limits</small></div>
-      <details class="note-item" open><summary><span>Check the application before showing “ready.”</span><span class="note-category">Reliability</span></summary><div class="note-content"><p>Instance health is only the first check. The launcher waits for the game service and protocol response before publishing joining details. A boot delay or failed startup stays visible as a startup problem.</p><p>The tradeoff: readiness takes longer than simply exposing an IP address, but players receive an application-level signal rather than an infrastructure status.</p></div></details>
-      <details class="note-item"><summary><span>Separate temporary compute from saved worlds.</span><span class="note-category">Data lifecycle</span></summary><div class="note-content"><p>Persistent world data lives beyond the runtime. The normal shutdown path stops the game and checks its S3 backup before termination. Recovery paths retain the instance or create a snapshot when verification fails.</p><p>The tradeoff: recovery can retain storage or compute longer than a normal session. Backup verification is a design safeguard, not a guarantee against every data-loss scenario.</p></div></details>
-      <details class="note-item"><summary><span>Make cleanup part of the design.</span><span class="note-category">Operations</span></summary><div class="note-content"><p>Concurrency limits, idle shutdown, and session deadlines reduce accidental compute use. A watchdog reconciles expired or unexpected states. Cleanup is part of the lifecycle rather than a reminder to the operator.</p><p>The tradeoff: stored worlds, snapshots, networking, and control-plane requests continue to incur charges between sessions.</p></div></details>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <main class="page reveal" id="content">
+    <header class="intro">
+      <div class="intro-top">
+        <h1>Eric Connelly</h1>
+        <nav aria-label="Primary navigation">
+          <a href="/now.html">Now</a>
+          <a class="ext" href="https://www.linkedin.com/in/eric-c-159606108/" rel="me">LinkedIn</a>
+        </nav>
+      </div>
+      <p class="lede">Solutions Consultant at Google, working on cloud security and platform adoption. Washington, DC.</p>
+    </header>
+
+    <section aria-labelledby="work-title">
+      <h2 id="work-title">Work</h2>
+      <ol class="rows">
+        <li><span>Google<span class="live" title="Current role" aria-label="Current role"></span> <span class="muted role">Solutions Consultant II</span></span><span class="muted date">2026–</span></li>
+        <li><span>Amazon Web Services <span class="muted role">Cloud Support Engineer</span></span><span class="muted date">2024–26</span></li>
+        <li><span>TELUS Health <span class="muted role">Cloud Engineer</span></span><span class="muted date">2022–24</span></li>
+        <li><span>Varicent <span class="muted role">Software Engineer</span></span><span class="muted date">2020–21</span></li>
+      </ol>
     </section>
 
-    <section class="closing" id="evidence-connect"><div><p class="eyebrow">Let’s connect</p><h2>Let’s talk cloud<br>and customer challenges.</h2></div><div class="actions"><a class="primary-link" href="https://www.linkedin.com/in/eric-c-159606108/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a><a class="quiet-link" href="https://github.com/ericcgeerts" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></section>
+    <section aria-labelledby="certifications-title">
+      <h2 id="certifications-title">Certifications</h2>
+      <ul class="rows">
+        <li>AWS Certified Solutions Architect – Professional</li>
+        <li>Google Cloud Certified – Professional Cloud Architect</li>
+        <li>Certified Kubernetes Administrator</li>
+        <li>Microsoft Azure Administrator</li>
+      </ul>
+    </section>
+
+    <footer>Updated October 2026</footer>
   </main>
-  <footer class="footer"><span>Eric Connelly · Washington, DC area</span><span>Personal projects. Views are my own.</span></footer>
-</div>
-
-</div></body>
+</body>
 </html>
