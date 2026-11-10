@@ -141,6 +141,19 @@ h2 {
 .verify:hover span:first-child { text-decoration: underline; text-underline-offset: 3px; }
 .verify .muted { flex-shrink: 0; font-size: .85rem; }
 
+.about { margin-top: 3rem; }
+.about summary {
+  font-size: .75rem;
+  color: var(--faint);
+  cursor: pointer;
+  list-style: none;
+}
+.about summary::-webkit-details-marker { display: none; }
+.about summary::after { content: " +"; }
+.about[open] summary::after { content: " −"; }
+.about summary:hover { color: var(--muted); }
+.about p { margin: .75rem 0 0; color: var(--muted); }
+
 .prose p { margin: 0 0 1rem; }
 .prose h2 + p { margin-top: .5rem; }
 
