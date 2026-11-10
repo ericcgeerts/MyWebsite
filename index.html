@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Eric Connelly — Solutions Consultant II at Google. Cloud security, customer adoption, and hands-on cloud experience across Google, AWS, and TELUS Health.">
+  <meta name="description" content="Eric Connelly, formerly Eric Geerts, is a Solutions Consultant at Google in Washington, DC, working on cloud security and customer adoption.">
   <meta name="author" content="Eric Connelly">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
@@ -12,12 +12,14 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="/assets/css/minimal.css?v=2">
+  <link rel="stylesheet" href="/assets/css/minimal.css?v=3">
   <meta property="og:type" content="profile">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Eric Connelly">
-  <meta property="og:title" content="Eric Connelly | Cloud Security &amp; Customer Advisory">
-  <meta property="og:description" content="Cloud security, customer adoption, and hands-on cloud experience across Google, AWS, and TELUS Health.">
+  <meta property="og:title" content="Eric Connelly (formerly Eric Geerts) | Cloud Security at Google">
+  <meta property="og:description" content="Eric Connelly (formerly Eric Geerts): cloud security and customer adoption at Google, previously AWS and TELUS Health.">
+  <meta property="profile:first_name" content="Eric">
+  <meta property="profile:last_name" content="Connelly">
   <meta property="og:url" content="https://ericconnelly.me/">
   <meta property="og:image" content="https://ericconnelly.me/images/eric-connelly-social-card.png?v=2">
   <meta property="og:image:type" content="image/png">
@@ -25,15 +27,10 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Eric Connelly — Cloud security and customer adoption">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Eric Connelly | Cloud Security &amp; Customer Advisory">
-  <meta name="twitter:description" content="Cloud security, customer adoption, and hands-on cloud experience across Google, AWS, and TELUS Health.">
+  <meta name="twitter:title" content="Eric Connelly (formerly Eric Geerts) | Cloud Security at Google">
+  <meta name="twitter:description" content="Eric Connelly (formerly Eric Geerts): cloud security and customer adoption at Google, previously AWS and TELUS Health.">
   <meta name="twitter:image" content="https://ericconnelly.me/images/eric-connelly-social-card.png?v=2">
   <meta name="twitter:image:alt" content="Eric Connelly — Cloud security and customer adoption">
-  <!--
-    TODO: add more profiles to "sameAs" below as they exist, for example:
-      "https://medium.com/@YOUR-HANDLE" (or any blog or talk you publish)
-    and add a "url" to the Google Cloud credential once it has a public verification page.
-  -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -43,15 +40,17 @@
         "@id": "https://ericconnelly.me/#website",
         "url": "https://ericconnelly.me/",
         "name": "Eric Connelly",
-        "description": "Cloud security, customer adoption, and hands-on cloud experience across Google, AWS, and TELUS Health.",
+        "alternateName": ["Eric Geerts", "ericconnelly.me"],
+        "description": "Personal website of Eric Connelly, formerly Eric Geerts: cloud security and customer adoption at Google.",
+        "publisher": { "@id": "https://ericconnelly.me/#eric-connelly" },
         "inLanguage": "en-US"
       },
       {
         "@type": "ProfilePage",
         "@id": "https://ericconnelly.me/#profile",
         "url": "https://ericconnelly.me/",
-        "name": "Eric Connelly | Cloud Security & Customer Advisory",
-        "dateModified": "2026-10-19",
+        "name": "Eric Connelly (formerly Eric Geerts) | Cloud Security at Google",
+        "dateModified": "2026-11-10",
         "isPartOf": {
           "@id": "https://ericconnelly.me/#website"
         },
@@ -59,7 +58,12 @@
           "@type": "Person",
           "@id": "https://ericconnelly.me/#eric-connelly",
           "name": "Eric Connelly",
+          "givenName": "Eric",
+          "familyName": "Connelly",
+          "alternateName": ["Eric Geerts", "Eric C. Geerts"],
+          "description": "Eric Connelly, formerly Eric Geerts, is a Solutions Consultant at Google in Washington, DC, working on cloud security and customer adoption.",
           "url": "https://ericconnelly.me/",
+          "mainEntityOfPage": { "@id": "https://ericconnelly.me/#profile" },
           "jobTitle": "Solutions Consultant II",
           "worksFor": {
             "@type": "Organization",
@@ -70,6 +74,11 @@
             "@type": "Place",
             "name": "Washington, DC"
           },
+          "alumniOf": [
+            { "@type": "Organization", "name": "Amazon Web Services", "url": "https://aws.amazon.com/" },
+            { "@type": "Organization", "name": "TELUS Health", "url": "https://www.telushealth.com/" },
+            { "@type": "Organization", "name": "Varicent", "url": "https://www.varicent.com/" }
+          ],
           "knowsAbout": [
             "Cloud security",
             "Customer adoption",
@@ -115,7 +124,7 @@
     ]
   }
   </script>
-  <title>Eric Connelly | Cloud Security &amp; Customer Advisory</title>
+  <title>Eric Connelly (formerly Eric Geerts) | Cloud Security at Google</title>
 </head>
 <body>
   <a class="skip" href="#content">Skip to content</a>
@@ -130,7 +139,14 @@
         </nav>
       </div>
       <p class="lede">Solutions Consultant at Google, working on cloud security and customer adoption. Washington, DC.</p>
+      <p class="lede aka">Formerly Eric Geerts.</p>
     </header>
+
+    <section class="prose" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p>I’m Eric Connelly, a Solutions Consultant at Google in Washington, DC. I help customers adopt cloud security tooling and work through the technical risk that comes with running on Google Cloud, AWS, Azure, and Kubernetes. Before Google I was a Cloud Support Engineer at Amazon Web Services and a Cloud Engineer at TELUS Health.</p>
+      <p>I changed my name from Eric Geerts to Eric Connelly. Earlier work, certifications, and profiles under the name Eric Geerts are mine.</p>
+    </section>
 
     <section aria-labelledby="work-title">
       <h2 id="work-title">Work</h2>
@@ -151,6 +167,17 @@
         <li><a class="verify" href="https://learn.microsoft.com/api/credentials/share/en-us/EricGeerts-2474/A591E32700A22BE8?sharingId=82F116973A01DFC8"><span>Microsoft Azure Administrator</span><span class="muted">Microsoft ↗</span></a></li>
       </ul>
     </section>
+
+    <section aria-labelledby="elsewhere-title">
+      <h2 id="elsewhere-title">Elsewhere</h2>
+      <ul class="rows">
+        <li><a class="verify" href="https://www.linkedin.com/in/eric-c-159606108/" rel="me"><span>LinkedIn</span><span class="muted">Eric Connelly ↗</span></a></li>
+        <li><a class="verify" href="https://github.com/ericcgeerts" rel="me"><span>GitHub</span><span class="muted">ericcgeerts ↗</span></a></li>
+        <li><a class="verify" href="https://www.credly.com/users/eric-connelly1" rel="me"><span>Credly</span><span class="muted">eric-connelly1 ↗</span></a></li>
+      </ul>
+    </section>
+
+    <footer>Eric Connelly (formerly Eric Geerts) · <a href="https://ericconnelly.me/">ericconnelly.me</a></footer>
   </main>
 </body>
 </html>
